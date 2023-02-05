@@ -4,15 +4,12 @@
 
 # Step 1:
 # This is your Docker ID/path
-# dockerpath=<>
+dockerpath=ngaie/ml-microservice-kubernetes:latest
 
-# Step 2
-# Run the Docker Hub container with kubernetes
+kubectl create deploy ml-microservice-kubernetes --image=$dockerpath
 
 
-# Step 3:
-# List kubernetes pods
+kubectl get deploy,rs,svc,pods
 
-# Step 4:
-# Forward the container port to a host
+kubectl port-forward pod/ml-microservice-kubernetes-776594fccc-sjwd8 --address 0.0.0.0 5000:80
 
