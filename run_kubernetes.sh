@@ -11,5 +11,5 @@ kubectl create deploy ml-microservice-kubernetes --image=$dockerpath
 
 kubectl get deploy,rs,svc,pods
 
-kubectl port-forward pod/ml-microservice-kubernetes-776594fccc-sjwd8 --address 0.0.0.0 5000:80
+kubectl port-forward pod/ml-microservice-kubernetes-6bd579f6d9-8cncz --address 0.0.0.0 8000:80
 
