@@ -1,6 +1,6 @@
 # project-ml-microservice-kubernetes
 
-<include a CircleCI status badge, here>
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Ngai-E/project-ml-microservice-kubernetes/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Ngai-E/project-ml-microservice-kubernetes/tree/main)
 
 ## Project Overview
 
